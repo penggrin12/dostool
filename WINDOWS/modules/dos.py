@@ -7,9 +7,6 @@ site = sys.argv[1]
 t = [None] *1000
 a = [None] *1000
 l = [None] *1000
-
-F = '\033[91m'
-E = '\033[0m'
 agent = []
 agent.append("Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)")
 agent.append("Mozilla/5.0 (Windows NT 6.2) AppleWebKit/535.7 (KHTML, like Gecko) Comodo_Dragon/16.1.1.0 Chrome/16.0.912.63 Safari/535.7")

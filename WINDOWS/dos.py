@@ -2,8 +2,8 @@ import sys,os
 
 def info():
         print('#      DOS TOOL')
-        print('#       Build 2')
-        print('#     By Penggrin \n')
+        print('#       Build 3')
+        print('#     By Penggrin')
         
 def cls():
         os.system('cls')
@@ -11,18 +11,27 @@ def cls():
 cls()
 info()
 
-print('# Выбери сайт:')
-site = input('# >')
+def info():
+        print(
+'''
+# +-------------------------+
+# |````````Дисклеймер```````|
+# | ИСПОЛЬЗОВАНИЕ ПРОГРАММЫ |
+# |В ПЛОХИХ ЦЕЛЯХ ЗАПРЕЩЕНО |
+# +-------------------------+
+''')
+info()
+print('# Выбери сайт')
+print('# (Пример: google.com)')
+site = input('* ')
 
 if site == "":
         print('# Сайт не может быть пустым')
-        cls()
         exit()
         
 elif site == " ":
         print('# Сайт не может быть пустым')
-        cls()
         exit()
         
-os.system('clear')
+cls()
 os.system('python modules/dos.py '+site)
