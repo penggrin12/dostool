@@ -2,7 +2,7 @@ import sys,os
 
 def info():
         print('#      DOS TOOL')
-        print('#       Build 3')
+        print('#       Build 4')
         print('#     By Penggrin')
         
 def cls():
